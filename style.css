@@ -1,0 +1,86 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+    text-align:center;
+    color:gold;
+    background-color:black;
+}
+h1{
+    font-size:50px;
+    padding: 10px;
+    text-shadow: gold 1px 0 10px;
+    
+}
+.container{
+    height:500px;
+    width:500px;
+    margin:auto;
+    padding:10px 10px;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.game{
+    height:480px;
+    padding:10px 10px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.boxes{
+    height:150px;
+    width:150px;
+    padding:5px 5px;
+    background-color: white;
+    border:1px solid goldenrod;
+    box-shadow: gold 0px 7px 29px 0px;
+    border-radius: 15px;
+    font-size:5rem;
+    color:goldenrod;
+    font-weight: bold;
+}
+.newGame{
+    height:40px;
+    width:150px;
+    padding:8px 8px;
+    font-size: 20px;
+    border-radius: 10px;
+    border:1px solid gold;
+    box-shadow: gold 0px 7px 29px 0px;
+    font-weight: bold;
+}
+#msg{
+    font-size:45px;
+    color:gold;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px gold, 0 0 1em gold, 0 0 0.2em gold;
+}
+.msg-container{
+    height:60px;
+    padding:5px 5px;
+    display:flex;
+    align-content:center;
+    justify-content: center;
+}
+.hide{
+    display: none;
+}
+
+@media (max-width:540px){
+    #msg{font-size: 30px;
+        text-align: center;}
+    h1{padding:20px;}
+    .container{
+        height:300px;
+        width:300px;}
+    .game{
+        height:280px;}
+    .boxes{
+        height:90px;
+        width:90px;}
+    
+}
